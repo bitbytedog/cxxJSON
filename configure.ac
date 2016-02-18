@@ -1,0 +1,15 @@
+AC_INIT([cxxJSON], [1.0])
+AC_CONFIG_AUX_DIR([config])
+AM_INIT_AUTOMAKE([foreign])
+AC_CONFIG_MACRO_DIRS([m4])
+AC_CONFIG_HEADERS([config.h])
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_LIBTOOL
+AC_PROG_MAKE_SET
+
+AC_CONFIG_FILES([
+    Makefile
+    src/Makefile
+    tools/Makefile])
+AC_OUTPUT
